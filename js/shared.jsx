@@ -403,7 +403,7 @@ function Footer(){
       <div style={{flex:'0 0 auto'}}><Logo variant="paper" width={148} assetBase={A}/>
         <p style={{margin:'var(--space-4) 0 0',maxWidth:'34ch',fontSize:'var(--text-caption)',lineHeight:'var(--lh-body)',color:'var(--text-muted)'}}>Gesunde Jahre statt bloßer Jahre. Studienlage, übersetzt in Schritte.</p></div>
       <div style={{marginLeft:'auto',display:'flex',gap:'var(--space-8)',flexWrap:'wrap'}}>
-        {[['Inhalt',[['Journal','index.html'],['Guide','guide.html']]],['Marke',[['About','ueber-uns.html']]],['Rechtliches',[['Impressum','impressum.html'],['Datenschutz','#']]]].map(([h,items])=>
+        {[['Inhalt',[['Journal','index.html'],['Guide','guide.html']]],['Marke',[['About','ueber-uns.html']]],['Rechtliches',[['Impressum','impressum.html'],['Datenschutz','datenschutz.html']]]].map(([h,items])=>
           <div key={h}><Kicker tone="muted" style={{marginBottom:'var(--space-3)'}}>{h}</Kicker>
             <div style={{display:'flex',flexDirection:'column',gap:'var(--space-2)'}}>{items.map(([label,href])=><a key={label} href={href} style={{fontSize:'var(--text-body-sm)',color:'var(--text-body)',textDecoration:'none'}}>{label}</a>)}</div></div>)}
       </div>
