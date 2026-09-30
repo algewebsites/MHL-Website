@@ -1,0 +1,26 @@
+:root{
+/* --- Brand palette (from the MHL logo guide) --- */
+--koralle:#E4552B;--koralle-hell:#F08A5F;--pfirsich:#F9D8BE;--warmgrau:#DBD7D3;--tinte:#211B16;--papier:#FBFAF9;
+
+/* --- Ramps derived from the palette --- */
+--koralle-100:#FDEDE7;--koralle-200:#F9D8BE;--koralle-300:#F08A5F;--koralle-500:#E4552B;--koralle-600:#C6431E;--koralle-700:#9C3315;
+--warm-50:#FBFAF9;--warm-100:#F5F2EF;--warm-200:#EBE7E3;--warm-300:#DBD7D3;--warm-400:#B9B2AA;--warm-500:#8C8479;--warm-600:#655D53;--warm-700:#463F37;--warm-900:#211B16;
+
+/* --- Semantic surfaces --- */
+--surface-page:var(--papier);--surface-card:#FFFFFF;--surface-muted:var(--warm-100);--surface-sunken:var(--warmgrau);--surface-ink:var(--tinte);--surface-accent:var(--koralle);--surface-accent-soft:var(--pfirsich);
+
+/* --- Semantic text --- */
+--text-heading:var(--tinte);--text-body:var(--warm-700);--text-muted:var(--warm-500);--text-accent:var(--koralle);--text-on-ink:var(--papier);--text-on-ink-muted:var(--warm-400);--text-on-accent:#FFFFFF;
+
+/* --- Lines --- */
+--line-hairline:var(--warm-200);--line-strong:var(--warm-300);--line-ink:var(--tinte);--line-accent:var(--koralle);
+
+/* --- Interactive --- */
+--action-primary:var(--tinte);--action-primary-hover:#35291F;--action-accent:var(--koralle);--action-accent-hover:var(--koralle-600);--focus-ring:var(--koralle);
+
+/* --- Semantic status (health readouts) --- */
+--status-good:#3F7D52;--status-good-soft:#E6EFE7;--status-watch:#C08A2E;--status-watch-soft:#F7EEDC;--status-risk:var(--koralle-600);--status-risk-soft:var(--koralle-100);
+
+/* --- The pulse: only ever koralle --- */
+--pulse-on-light:var(--koralle);--pulse-on-ink:var(--koralle-hell)
+}
