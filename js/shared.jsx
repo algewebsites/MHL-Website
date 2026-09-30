@@ -176,6 +176,70 @@ const ARTICLES=[
       subtext:'Die beste Methode ist die, die sich über Monate durchhalten lässt, nicht die mit dem größten kurzfristigen Effekt.',
       list:['Essensfenster an den eigenen Tagesrhythmus anpassen, nicht umgekehrt.','Proteinzufuhr im Fenster priorisieren, um Muskelmasse zu erhalten.','Bei Krafttraining das Fenster um die Trainingszeit legen.']
     }
+  },
+  {
+    slug:'schlafdauer-mortalitaet',kicker:'Schlaf',
+    title:'Sieben Stunden schützen mehr als sechs oder neun',
+    lead:'Zu wenig und zu viel Schlaf sind gleichermaßen mit höherer Sterblichkeit verbunden. Wo das Optimum wirklich liegt.',
+    read:'6 Min.',date:'14. August 2026',tags:['Schlaf','Langlebigkeit'],
+    body:{
+      intro:[
+        'Große Kohortenstudien zeigen einen U-förmigen Zusammenhang zwischen Schlafdauer und Sterberisiko: Sowohl unter sechs als auch über neun Stunden pro Nacht steigt es messbar an. Das niedrigste Risiko liegt konsistent bei sieben bis acht Stunden — nicht bei einem Maximum an Schlaf, sondern bei einer mittleren Menge.',
+        'Der Zusammenhang bei zu viel Schlaf ist dabei wahrscheinlich kein direkter Effekt der Schlafdauer selbst, sondern spiegelt oft zugrunde liegende gesundheitliche Probleme wider, die mehr Schlafbedarf auslösen. Das ändert nichts daran, dass sieben Stunden der robusteste Zielwert bleiben.'
+      ],
+      callout:'Sieben bis acht Stunden schlagen sowohl fünf als auch zehn Stunden in praktisch jeder großen Studie.',
+      subhead:'Was das praktisch heißt',
+      subtext:'Ein fester Schlafzielwert von sieben Stunden ist ein besserer Kompass als das Gefühl, „noch mehr" könne nicht schaden.',
+      list:['Wecker und Schlafenszeit so setzen, dass sieben Stunden realistisch sind.','Dauerhaft über neun Stunden Schlafbedarf ärztlich abklären lassen.','Nickerchen tagsüber nicht gegen fehlende Nachtstunden aufrechnen.']
+    }
+  },
+  {
+    slug:'schlafkonsistenz',kicker:'Schlaf',
+    title:'Ein fester Rhythmus zählt mehr als die Dauer',
+    lead:'Wer unter der Woche und am Wochenende zur gleichen Zeit schläft, gewinnt mehr als durch eine zusätzliche Stunde Schlaf.',
+    read:'5 Min.',date:'31. Juli 2026',tags:['Schlaf','Rhythmus'],
+    body:{
+      intro:[
+        'Der Effekt heißt „Social Jetlag": Wer am Wochenende zwei oder mehr Stunden später schläft als unter der Woche, erzeugt für den Körper denselben Stress wie eine Zeitzonenverschiebung — jede Woche neu. Studien verknüpfen ausgeprägten Social Jetlag mit höherem Risiko für Übergewicht, Stoffwechselstörungen und schlechterer Stimmung, unabhängig von der reinen Schlafdauer.',
+        'Die Schlafkonsistenz — wie ähnlich Einschlaf- und Aufwachzeit von Nacht zu Nacht sind — sagt in aktuellen Analysen das Sterberisiko sogar treffender vorher als die durchschnittliche Schlafdauer allein.'
+      ],
+      callout:'Zwei Stunden Verschiebung am Wochenende wirken auf den Körper wie ein kurzer Flug in eine andere Zeitzone.',
+      subhead:'Was das praktisch heißt',
+      subtext:'Die Aufstehzeit ist der wirksamere Hebel als die Einschlafzeit — sie lässt sich leichter konstant halten.',
+      list:['Aufstehzeit an sieben Tagen die Woche innerhalb einer Stunde gleich halten.','Ausschlafen auf maximal eine Stunde über die übliche Zeit begrenzen.','Bei Schichtarbeit feste Ankerzeiten statt komplett wechselnder Rhythmen suchen.']
+    }
+  },
+  {
+    slug:'schnarchen-herz',kicker:'Schlaf',
+    title:'Schnarchen ist öfter ein Warnsignal als ein Ärgernis',
+    lead:'Lautes, unregelmäßiges Schnarchen kann auf Schlafapnoe hinweisen — mit direkten Folgen fürs Herz.',
+    read:'7 Min.',date:'20. Juli 2026',tags:['Schlaf','Herz'],
+    body:{
+      intro:[
+        'Obstruktive Schlafapnoe betrifft schätzungsweise jeden zehnten Erwachsenen, bleibt aber bei den meisten unentdeckt. Die wiederholten Atemaussetzer senken den Sauerstoffgehalt im Blut und aktivieren immer wieder das Stresssystem — über Jahre ein Risikofaktor für Bluthochdruck, Vorhofflimmern und Herzinfarkt.',
+        'Nicht jedes Schnarchen ist Schlafapnoe. Ein Warnsignal ist die Kombination aus lautem Schnarchen, beobachteten Atempausen und ausgeprägter Tagesmüdigkeit trotz ausreichender Schlafzeit.'
+      ],
+      callout:'Beobachtete Atempausen im Schlaf sind ein stärkeres Warnsignal als die Lautstärke des Schnarchens.',
+      subhead:'Was das praktisch heißt',
+      subtext:'Ein Screening-Fragebogen beim Hausarzt oder eine ambulante Schlafmessung klärt das Risiko meist innerhalb weniger Tage.',
+      list:['Partnerin oder Partner nach beobachteten Atempausen fragen.','Bei Verdacht ambulantes Schlafapnoe-Screening ansprechen.','Übergewicht und Alkohol am Abend verstärken das Risiko zusätzlich.']
+    }
+  },
+  {
+    slug:'morgenlicht',kicker:'Schlaf',
+    title:'Morgenlicht stellt die innere Uhr auf Kurs',
+    lead:'Zehn Minuten Tageslicht direkt nach dem Aufstehen verbessern den Schlaf am Abend messbar.',
+    read:'5 Min.',date:'7. Juli 2026',tags:['Schlaf','Rhythmus'],
+    body:{
+      intro:[
+        'Die innere Uhr orientiert sich vor allem an einem Signal: hellem Licht, das auf die Netzhaut trifft. Morgendliches Tageslicht — selbst an einem bewölkten Tag deutlich heller als Innenraumlicht — verschiebt die Ausschüttung von Melatonin am Abend nach vorne und macht Einschlafen zur gewohnten Zeit leichter.',
+        'Wer morgens vor allem Kunstlicht ausgesetzt ist und abends hellem Bildschirmlicht, verschiebt den Rhythmus in die Gegenrichtung — die innere Uhr läuft dann schrittweise nach hinten.'
+      ],
+      callout:'Zehn Minuten Tageslicht vor 9 Uhr wirken stärker auf die innere Uhr als eine Stunde Kunstlicht am Abend.',
+      subhead:'Was das praktisch heißt',
+      subtext:'Der Effekt ist am größten direkt nach dem Aufwachen und nimmt im Tagesverlauf ab.',
+      list:['Möglichst innerhalb der ersten Stunde nach dem Aufstehen nach draußen.','Sonnenbrille dabei weglassen, soweit die Lichtverhältnisse es zulassen.','Abends Bildschirmlicht in den letzten ein bis zwei Stunden vor dem Schlafen reduzieren.']
+    }
   }
 ];
 
