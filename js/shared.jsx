@@ -409,7 +409,7 @@ function Footer(){
       </div>
     </div>
     <div className="container" style={{marginTop:'var(--space-7)',paddingTop:'var(--space-4)',borderTop:'var(--border-hairline)',display:'flex',justifyContent:'space-between',alignItems:'center',flexWrap:'wrap',gap:'var(--space-3)'}}>
-      <span style={{fontSize:'var(--text-caption)',color:'var(--text-muted)'}}>© 2026 My Healthy Longevity</span>
+      <span style={{fontSize:'var(--text-caption)',color:'var(--text-muted)'}}>© {new Date().getFullYear()} My Healthy Longevity</span>
       <PulseRule width={140} assetBase={A}/>
     </div>
   </footer>;
