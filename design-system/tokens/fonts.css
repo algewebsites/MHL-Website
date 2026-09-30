@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Public+Sans:ital,wght@0,300..700;1,400&display=swap");
-/* Jost (brand + headlines) and Public Sans (body) are loaded from Google Fonts.
-   The source deck referenced them by name only; no binaries were supplied. */
+/* Jost (brand + headlines) and Public Sans (body), self-hosted from local
+   files instead of Google's CDN — loading fonts live from fonts.googleapis.com
+   transmits visitor IPs to Google without consent, which German courts have
+   treated as a GDPR violation. Both are variable fonts, so one file each
+   covers the full weight range via font-weight ranges below. */
+@font-face{font-family:"Jost";font-style:normal;font-weight:400 700;font-display:swap;src:url("fonts/jost-variable.woff2") format("woff2")}
+@font-face{font-family:"Public Sans";font-style:normal;font-weight:300 700;font-display:swap;src:url("fonts/public-sans-variable.woff2") format("woff2")}
+@font-face{font-family:"Public Sans";font-style:italic;font-weight:400;font-display:swap;src:url("fonts/public-sans-italic.woff2") format("woff2")}
 :root{--font-brand:"Jost",system-ui,sans-serif;--font-display:"Jost",system-ui,sans-serif;--font-body:"Public Sans",system-ui,sans-serif;--font-mono:ui-monospace,"SFMono-Regular",Menlo,monospace}
